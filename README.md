@@ -1,12 +1,10 @@
 # Elm For Beginners
-This repo is the source companion to the following course on Learning Elmlang:
+Exercises completed for course on Learning Elmlang:
 http://courses.knowthen.com/courses/elm-for-beginners
 
-This course teaches beginners how to write frontend web apps using the awesome functional programming language: [Elmlang](http://elm-lang.org/)
+Awesome functional programming language: [Elmlang](http://elm-lang.org/)
 
-## Updated for Elm 0.18
-
-#### Why you should take this course?
+## For Elm 0.18
 
 Elm is an amazing language that offers many benefits like:
 
@@ -19,14 +17,9 @@ Elm is an amazing language that offers many benefits like:
 * Enforced Semantic Versioning
 * and much more...
 
+#### Exercises
 
-#### Why this course?
-
-Do you ever feel overwhelmed with new technologies? I think most of us do, there is so much change constantly happening and the pace of change seems to be increasing.
-
-What can you do to manage the learning challenges facing software developers?
-
-#### Lean learning
-
-I don't want to waste your time, so you'll learn just what you need to know as quickly as possible. You'll start this course with the end in mind. What do I mean by that? We're going to be building a web application, and you'll learn just what you need to build the app.
-
+* Functions
+* Type annotations
+* Calorie counter app
+* Scorekeeper app.

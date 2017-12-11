@@ -17,3 +17,26 @@
 17. Open the `linter-elm-make` settings page in atom as you did in steps 7 and 13, then click the settings button next to `linter-elm-make` and then set the `elm-make` setting to the copied value from the prior step.
 
 Your atom / elm dev environment should be good to go!
+
+#The Command Line Tools
+
+So we installed Elm, and it gave us elm-repl, elm-reactor, elm-make, and elm-package. But what do they all do exactly?
+
+`elm-repl` lets you play with simple Elm expressions.
+
+`elm-reactor` helps you build Elm projects without messing with the command-line too much. You just run it at the root of your project.
+This starts a server at http://localhost:8000. You can navigate to any Elm file and see what it looks like.
+  Notable flags:
+    `--port` lets you pick something besides port 8000. So you can say elm-reactor --port=8123 to get things to run at http://localhost:8123.
+    `--address` lets you replace localhost with some other address. For example, you may want to use elm-reactor --address=0.0.0.0 if you want to try out an Elm program on a mobile device through your local network.
+
+`elm-make` builds Elm projects. It can compile Elm code to HTML or JavaScript. It is the most general way to compile Elm code, so if your project becomes too advanced for elm-reactor, you will want to start using elm-make directly.
+  Notable flags:
+    `--warn` prints warnings to improve code quality
+
+`elm-package` downloads and publishes packages from Elm package catalog.
+  Notable commands:
+    1. `install`: install the dependencies in elm-package.json
+    2. `publish`: publish your library to the Elm Package Catalog
+    3. `bump`: bump version numbers based on API changes
+    4. `diff`: get the difference between two APIs

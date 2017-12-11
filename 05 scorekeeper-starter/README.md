@@ -23,3 +23,6 @@ Code found in the `scorekeeper-player-section` directory
 ## Creating the Play Section
 
 Code found in the `scorekeeper-plays-section` directory
+
+Install the core and html related packages
+elm package install -y
